@@ -1,0 +1,36 @@
+#
+# system.prop for GT-S5830
+#
+
+rild.libpath=/system/lib/libsec-ril.so
+rild.libargs=-d /dev/smd0
+keyguard.no_require_sim=true
+ro.com.android.dateformat=dd-MM-yyyy
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.media.dec.jpeg.memcap=20000000
+DEVICE_PROVISIONED=1
+ro.sf.lcd_density=160
+qemu.sf.lcd_density=160
+hw.keyboards.0.devname=qwerty
+mobiledata.interfaces=pdp0,wlan0,gprs,ppp0
+ro.telephony.ril_class=samsung
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=60
+ro.com.android.dataroaming=false
+ro.config.hw_menu_unlockscreen=false
+ro.service.swiqi.supported=true
+ro.media.enc.jpeg.quality=100
+ro.media.dec.jpeg.memcap=8000000 
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
+persist.sys.ui.hw=true
+ro.com.google.locationfeatures=1
+ro.com.google.networklocation=1
+ro.setupwizard.enable_bypass=1
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.heapsize=64m
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.dexopt-data-only=1
+ro.opengles.version=131072
