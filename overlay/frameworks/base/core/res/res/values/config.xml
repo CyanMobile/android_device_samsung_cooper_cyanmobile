@@ -47,14 +47,6 @@
     <!-- Allow the menu hard key to be disabled in LockScreen on some devices -->
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
 
-    <!-- Flag indicating whether we should enable the automatic brightness in Settings.
-         config_hardware_automatic_brightness_available is not set, so we will use software implementation -->
-    <bool name="config_automatic_brightness_available">true</bool>
-
-    <!-- Flag indicating whether the auto-brightness should be controled
-         by light sensor events or hardware directly -->
-    <bool name="config_automaticSoftwareBrightness">true</bool>
-
     <integer name="config_lightSensorWarmupTime">250</integer>
 
     <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
