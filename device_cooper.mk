@@ -121,6 +121,18 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/be_photo:system/etc/be_photo \
     device/samsung/cooper/prebuilt/be_movie:system/etc/be_movie
 
+## wifi
+PRODUCT_COPY_FILES += \
+    device/samsung/cooper/prebuilt/wifi/ar6000.ko:system/wifi/ar6000.ko \
+    device/samsung/cooper/prebuilt/ath6k/AR6003/hw2.0/athtcmd_ram.bin:system/wifi/ath6k/AR6003/hw2.0/athtcmd_ram.bin \
+    device/samsung/cooper/prebuilt/ath6k/AR6003/hw2.0/athwlan.bin.z77:system/wifi/ath6k/AR6003/hw2.0/athwlan.bin.z77 \
+    device/samsung/cooper/prebuilt/ath6k/AR6003/hw2.0/bdata.SD31.bin:system/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin \
+    device/samsung/cooper/prebuilt/ath6k/AR6003/hw2.0/bdata.SD31.bin.01:system/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin.01 \
+    device/samsung/cooper/prebuilt/ath6k/AR6003/hw2.0/bdata.SD31.bin.02:system/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin.02 \
+    device/samsung/cooper/prebuilt/ath6k/AR6003/hw2.0/bdata.SD31.bin.03:system/wifi/ath6k/AR6003/hw2.0/bdata.SD31.bin.03 \
+    device/samsung/cooper/prebuilt/ath6k/AR6003/hw2.0/data.patch.bin:system/wifi/ath6k/AR6003/hw2.0/data.patch.bin \
+    device/samsung/cooper/prebuilt/ath6k/AR6003/hw2.0/otp.bin.z77:system/wifi/ath6k/AR6003/hw2.0/otp.bin.z77 \
+
 ## application
 PRODUCT_COPY_FILES += \
     device/samsung/cooper/app/BMKG.apk:system/app/BMKG.apk
