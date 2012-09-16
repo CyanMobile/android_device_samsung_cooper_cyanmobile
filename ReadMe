@@ -1,1 +1,5 @@
 Device Config Samsung Galaxy Ace (GT-S5830) for CyanMobile
+
+first run extract-files.sh
+
+then extract cooper.tar.xz into folder vendor/samsung/here, replace all inside that folder before building,
