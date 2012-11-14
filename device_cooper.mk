@@ -59,7 +59,9 @@ PRODUCT_PACKAGES += \
     erase_image \
     flash_image \
     screencap \
-    dexpreopt
+    dexpreopt \
+    CMParts \
+    CMWallpapers
 
 # proprietary side of the device
 $(call inherit-product-if-exists, vendor/samsung/cooper/cooper-vendor.mk)
